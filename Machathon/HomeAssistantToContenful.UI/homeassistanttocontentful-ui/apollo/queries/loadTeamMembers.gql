@@ -1,0 +1,45 @@
+fragment moodInfo on Mood {
+  moodKey
+  description
+}
+
+fragment outcomeInfo on Outcome {
+  outcome
+  mood {
+    moodKey
+    description
+  }
+  teamMember {
+    name
+  }
+}
+query Query {
+  teamMemberCollection(where: { name_not: "Default" }) {
+    items {
+      name
+      photo {
+        url
+      }
+      backgroundColour
+      mood {
+        ...moodInfo
+      }
+    }
+  }
+  specificOutcomes: outcomeCollection(
+    where: { AND: [{ teamMember: { name_not: "Default" } }] }
+  ) {
+    items {
+      ...outcomeInfo
+    }
+  }
+  defaultOutcomes: outcomeCollection(
+    where: { AND: [{ teamMember: { name: "Default" } }] }
+  ) {
+    items {
+      ...outcomeInfo
+    }
+  }
+}
+
+

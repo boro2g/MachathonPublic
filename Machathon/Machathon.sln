@@ -1,0 +1,112 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F11EAF14-E73C-4445-9FEF-FB81ED8F00F9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		notes.txt = notes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{4001A824-CC34-4ABD-92D9-96398E7D76A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambda", "Lambda", "{EEB7FDF1-7298-4FFE-A8E3-096C9415987B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContenful.Lambda", "HomeAssistantToContenful.Lambda\HomeAssistantToContenful.Lambda.csproj", "{02C9C978-B61E-4E77-A573-D3FA20D9184A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContenful", "HomeAssistantToContenful\HomeAssistantToContenful.csproj", "{92EA9D96-020D-4A4B-976C-22B3BE02F54C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContenful.ConsoleApp", "HomeAssistantToContenful.ConsoleApp\HomeAssistantToContenful.ConsoleApp.csproj", "{D260DD00-6126-4801-8EE3-6B3081812290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{4872ADEF-5B63-4A30-B655-6656C7505F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{1727E29C-DFC2-4C00-BB4A-29C29EE1A300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContenful.AzureFunctions.SignalRNotifier", "HomeAssistantToContenful.AzureFunctions.SignalRNotifier\HomeAssistantToContenful.AzureFunctions.SignalRNotifier.csproj", "{DE147898-E085-4962-ACEE-660886B2C413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContenful.Lambda.Alexa", "HomeAssistantToContenful.Lambda.Alexa\HomeAssistantToContenful.Lambda.Alexa.csproj", "{910DDC60-68FF-4897-8686-148675788A44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContentful.Lambda.SignalRBridge", "HomeAssistantToContentful.Lambda.SignalRBridge\HomeAssistantToContentful.Lambda.SignalRBridge.csproj", "{A1EECF14-8638-4E89-A3A3-18B331737A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApps", "TestApps", "{A05E0FE1-1F43-42A3-B90F-74989CAF1CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAssistantToContentful.SignalRBridge.ConsoleApp", "HomeAssistantToContentful.SignalRBridge.ConsoleApp\HomeAssistantToContentful.SignalRBridge.ConsoleApp.csproj", "{27F81037-0F83-4503-8DF1-1FA9994A52CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistantToContentful.Lambda.GithubBridge", "HomeAssistantToContentful.Lambda.GithubBridge\HomeAssistantToContentful.Lambda.GithubBridge.csproj", "{495C2E62-2B0F-4149-954C-463B6544B46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAssistantToContentful.Lambda.Core", "HomeAssistantToContentful.Lambda.Core\HomeAssistantToContentful.Lambda.Core.csproj", "{7061A1BF-6F34-4697-B733-7BFCB75E198E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAssistantToContentful.GithubBridge.ConsoleApp", "HomeAssistantToContentful.GithubBridge.ConsoleApp\HomeAssistantToContentful.GithubBridge.ConsoleApp.csproj", "{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C9C978-B61E-4E77-A573-D3FA20D9184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C9C978-B61E-4E77-A573-D3FA20D9184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C9C978-B61E-4E77-A573-D3FA20D9184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C9C978-B61E-4E77-A573-D3FA20D9184A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EA9D96-020D-4A4B-976C-22B3BE02F54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EA9D96-020D-4A4B-976C-22B3BE02F54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EA9D96-020D-4A4B-976C-22B3BE02F54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EA9D96-020D-4A4B-976C-22B3BE02F54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D260DD00-6126-4801-8EE3-6B3081812290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D260DD00-6126-4801-8EE3-6B3081812290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D260DD00-6126-4801-8EE3-6B3081812290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D260DD00-6126-4801-8EE3-6B3081812290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE147898-E085-4962-ACEE-660886B2C413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE147898-E085-4962-ACEE-660886B2C413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE147898-E085-4962-ACEE-660886B2C413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE147898-E085-4962-ACEE-660886B2C413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910DDC60-68FF-4897-8686-148675788A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910DDC60-68FF-4897-8686-148675788A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910DDC60-68FF-4897-8686-148675788A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910DDC60-68FF-4897-8686-148675788A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EECF14-8638-4E89-A3A3-18B331737A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EECF14-8638-4E89-A3A3-18B331737A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EECF14-8638-4E89-A3A3-18B331737A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EECF14-8638-4E89-A3A3-18B331737A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F81037-0F83-4503-8DF1-1FA9994A52CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F81037-0F83-4503-8DF1-1FA9994A52CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F81037-0F83-4503-8DF1-1FA9994A52CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F81037-0F83-4503-8DF1-1FA9994A52CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495C2E62-2B0F-4149-954C-463B6544B46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495C2E62-2B0F-4149-954C-463B6544B46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495C2E62-2B0F-4149-954C-463B6544B46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495C2E62-2B0F-4149-954C-463B6544B46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7061A1BF-6F34-4697-B733-7BFCB75E198E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7061A1BF-6F34-4697-B733-7BFCB75E198E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7061A1BF-6F34-4697-B733-7BFCB75E198E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7061A1BF-6F34-4697-B733-7BFCB75E198E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEB7FDF1-7298-4FFE-A8E3-096C9415987B} = {4001A824-CC34-4ABD-92D9-96398E7D76A0}
+		{02C9C978-B61E-4E77-A573-D3FA20D9184A} = {EEB7FDF1-7298-4FFE-A8E3-096C9415987B}
+		{D260DD00-6126-4801-8EE3-6B3081812290} = {A05E0FE1-1F43-42A3-B90F-74989CAF1CFC}
+		{1727E29C-DFC2-4C00-BB4A-29C29EE1A300} = {4872ADEF-5B63-4A30-B655-6656C7505F8E}
+		{DE147898-E085-4962-ACEE-660886B2C413} = {1727E29C-DFC2-4C00-BB4A-29C29EE1A300}
+		{910DDC60-68FF-4897-8686-148675788A44} = {EEB7FDF1-7298-4FFE-A8E3-096C9415987B}
+		{A1EECF14-8638-4E89-A3A3-18B331737A7C} = {EEB7FDF1-7298-4FFE-A8E3-096C9415987B}
+		{27F81037-0F83-4503-8DF1-1FA9994A52CF} = {A05E0FE1-1F43-42A3-B90F-74989CAF1CFC}
+		{495C2E62-2B0F-4149-954C-463B6544B46E} = {EEB7FDF1-7298-4FFE-A8E3-096C9415987B}
+		{7061A1BF-6F34-4697-B733-7BFCB75E198E} = {EEB7FDF1-7298-4FFE-A8E3-096C9415987B}
+		{207CD15F-0CB3-4D8D-BE43-4C2B8B110BFF} = {A05E0FE1-1F43-42A3-B90F-74989CAF1CFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2CAEFB3-938E-44EB-B721-2DB60AC1EE3C}
+	EndGlobalSection
+EndGlobal
+
+
+
